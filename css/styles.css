@@ -1,0 +1,201 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    color: #212121;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* CONTAINER */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+    border-bottom: 1px solid #ececec;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 24px;
+    color: #2196F3;
+}
+
+.logo span {
+    color: #000;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.contact-list {
+    display: flex;
+    gap: 30px;
+    color: #757575;
+}
+
+/* HERO */
+
+.hero {
+    background-color: #2F303A;
+    color: white;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.hero h1 {
+    font-size: 44px;
+    width: 696px;
+    margin: 0 auto 30px;
+    line-height: 1.3;
+}
+
+.hero-btn {
+    background-color: #2196F3;
+    color: white;
+    padding: 12px 32px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* ADVANTAGES */
+
+.advantages {
+    padding: 94px 0;
+}
+
+.advantages h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+
+.advantages-list {
+    display: flex;
+    gap: 30px;
+}
+
+.advantages-list li {
+    width: 270px;
+}
+
+.advantages-list h3 {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.advantages-list p {
+    color: #757575;
+    font-size: 14px;
+}
+
+/* WORK */
+
+.work {
+    padding-bottom: 94px;
+}
+
+.work h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+
+.work-list {
+    display: flex;
+    gap: 30px;
+}
+
+/* TEAM */
+
+.team {
+    background-color: #F5F4FA;
+    padding: 94px 0;
+}
+
+.team h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+
+.team-list {
+    display: flex;
+    gap: 30px;
+}
+
+.team-list li {
+    background-color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    width: 270px;
+}
+
+.team-list h3 {
+    margin: 20px 0 10px;
+}
+
+.team-list p {
+    color: #757575;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #2F303A;
+    color: white;
+    padding: 60px 0;
+}
+
+.footer .logo span {
+    color: white;
+}
+
+.footer address {
+    margin-top: 20px;
+    font-style: normal;
+    color: #757575;
+}
+
+.footer a {
+    color: white;
+}

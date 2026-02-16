@@ -226,7 +226,10 @@ button {
 }
 
 .advantages-icon {
-  fill: var(--primary-text-color);
+  display: block;
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
 }
 
 .advantages-subtitle {
